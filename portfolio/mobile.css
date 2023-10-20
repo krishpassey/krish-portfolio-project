@@ -1,0 +1,135 @@
+.imag {
+    max-width: 300px;
+    margin: auto;
+}
+.nav-item {
+ display: none;
+}
+
+
+.contant {
+  flex-direction: column;
+}
+
+.my-det {
+    max-width: 70vw;
+    margin: auto;
+    
+}
+
+.circle{
+  width: 90px;
+    height: 90px;
+    border-radius: 75px;
+  border-bottom:1px solid rgb(83, 80, 80);
+ 
+}
+
+.yellow {
+  font-size: 20px;
+}
+
+
+.red {
+  font-size: 20px;
+}
+
+
+
+.blue {
+  font-size: 20px;
+}
+
+
+
+
+.footeritem {
+   flex-direction: column;
+  padding: 20px;
+}
+
+.footeritem  li{
+   margin: 20px;
+}
+
+
+
+/* contact page css */
+
+/* .container { */
+  /* width: 75vw; */
+  /* width: 100%;
+  height: 650px; */
+  /* margin: auto; */
+  /* margin: 0;
+} */
+.container{
+display: flex;
+flex-direction: column;
+height: auto;
+width: 75vw;
+margin: auto;
+}
+
+.left {
+  width: 30vw;
+  padding: 30px;
+   
+}
+
+.right{
+  width: 25vw;
+
+}
+.left h1{
+  font-size: 40px;
+}
+.left h3{
+  font-size: 17px;
+}
+
+.inputtext{
+  height: 25px;
+}
+
+.masg{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+ font-size: 20px;
+
+}
+
+
+
+/* project page */
+.manu-img{
+  display: block;
+  margin-right: 5px;
+}
+
+.projects{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction:column ;
+}
+.projects-img{
+  margin-left: -30px;
+}
+
+
+
+
+/* resume page */
+
+.resume-part{
+  display: flex;
+  flex-direction: column;
+}

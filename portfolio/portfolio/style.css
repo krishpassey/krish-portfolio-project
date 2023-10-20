@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(218, 212, 212);
+}
+
+.cir {
+    width: 40px;
+    height: 40px;
+    background-color: #e8a310;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+.name a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(190, 184, 184);
+}
+
+.name {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    gap: 8px;
+}
+
+.name h1 {
+    margin-top: 6px;
+}
+
+.name span {
+    margin-top: 13px;
+
+}
+
+.nav-item {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(129, 119, 119);
+}
+
+
+.imag {
+    max-width: 460px;
+    border-radius: 50%;
+    border: 1px solid rgba(74, 73, 73, 0.658);
+}
+
+.cont {
+    height: 650px;
+    padding: 80px;
+    border-bottom: 1px solid rgb(148, 141, 141);
+}
+
+.contant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    height: 560px;
+    
+}
+
+.heading {
+    font-size: 100px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.my-det {
+
+    margin: 20px;
+}
+
+.paragraph {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 75px;
+
+}
+
+.circle-parent {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.yellow {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border: 1px solid #a06507;
+    background-color: #e8a310;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.yellow:hover {
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.red {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border: 1px solid rgb(114, 12, 12);
+    background-color: #f72b14;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.red:hover {
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.blue {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border: 1px solid #078789;
+    background-color: #80d8da;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.blue:hover {
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+
+
+.footeritem {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footeritem a {
+    text-decoration: none;
+    color: black;
+}
+
+.para {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+
+}
+
+
+
+/* contact page css */
+
+
+
+.container{
+    height: 500px;
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
+    border-bottom: 1px solid rgb(142, 139, 139);
+}
+
+.left {
+    padding: 80px;
+    width: 30vw;
+    
+}
+.left h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+  
+}
+.left h3{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    font-size: 25px;
+}
+.lfet p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.right {
+
+    padding: 40px;
+    
+}
+
+.inputtext {
+    margin: 10px;
+    height: 40px;
+}
+
+.masg{
+    display: flex;
+    gap: 15px;
+}
+.textarea{
+    padding: 10px;
+}
+.btn{
+    margin-top: 10px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border: 1px solid #a06507;
+    background-color: #e8a310;
+    cursor: pointer;
+}
+.btn:hover{
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+
+/* project page css */
+
+
+.tital{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.4rem;
+    width: 70vw;
+    margin: auto;
+    height: 160px;
+}
+.tital h1{
+    display: flex;
+    padding:35px ;
+}
+.tital h1 p{
+width: 22px;
+height: 22px;
+  background-color: #e8a310;
+  border-radius: 60px;
+  margin-top:25px ;
+ margin-left: 5px;
+}
+.projects-head{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 75vw;
+    margin: auto;
+    border-bottom: 1px solid rgb(183, 178, 178);
+}
+.projects{
+    width: 70vw;
+    margin: auto;
+    display: flex;
+}
+
+.projects-data{
+    padding: 30px;
+}
+.projects-data h1{
+    font-family: 'Work Sans', sans-serif;
+}
+.projects-data h3 {
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+.projects-data p {
+    font-family: 'Work Sans', sans-serif;
+}
+.projects-data a {
+    margin: 10px;
+    font-size: 18px;
+   
+}
+
+.projects-data a{
+    text-decoration: none;
+    color: black;
+}
+.projects-img img{
+width: 280px;
+border-radius: 50px;
+margin: 20px;
+border: 1px solid black;
+}
+
+
+
+/* resume page scc */
+.resume{
+    width: 80vw;
+    margin: auto;
+    border-bottom: 1px solid rgb(167, 165, 165);
+}
+.resume-part{
+    display: flex;
+    gap: 150px;
+    margin: 30px;
+   
+}
+.resume-headings{
+font-family: 'Work Sans', sans-serif;
+width: 30vw;
+}
+.resume-details{
+    width: 60vw;
+}
+.resume-details ul{
+    padding: 25px;
+}
+
+/* manu bar */
+
+.manu-img{
+    mix-blend-mode: color-burn;
+    width: 20px;
+    height: 25px;
+    display: none;
+    margin-top:20px;
+}
+
+.manu2-img{
+    mix-blend-mode: color-burn;
+    width: 23px;
+    height: 25px;
+    margin-top: 20px; 
+margin-right: 8px;
+}
+
+
+.manuitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    gap: 60px;
+    align-items: center; 
+    
+}
+.manukey{
+    color: black;
+    text-decoration: none;
+}
